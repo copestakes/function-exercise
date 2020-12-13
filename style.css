@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: #333;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #333;
+    height: 75px;
+
+}
+
+
+.logo {
+    font-family: 'Antic Slab', serif;
+    color: white;
+    font-size: 2em;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    font-family: sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    font-family: 'Antic Slab', serif;
+
+}
+
+.hero {
+    height: 60vh;
+    background: url(images/hero-murray.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.hero-quote {
+    font-family: 'Antic Slab', serif;
+    font-size: 1.5em;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+
+.about-content {
+    width: 80%;
+    display: flex;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.card-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.card {
+    width: 25%;
+    padding: 15px;
+    margin: 10px;
+    background: #666;
+    color: white;
+}
+
+.card-img {
+    width: 100%;
+    height: 350px;
+    border: 1px solid white;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
